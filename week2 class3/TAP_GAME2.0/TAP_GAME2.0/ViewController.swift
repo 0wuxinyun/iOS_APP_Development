@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet var labelp: UILabel!
     
     @IBOutlet var labelz: UILabel!
+   
     
+
+
     var hpp=10
     var hpz=10
     var winner=""
@@ -36,6 +39,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
     func checkwin(){
         if (hpp==0){
             winner="ZOMBINE"
@@ -54,6 +58,27 @@ class ViewController: UIViewController {
         }
     }
 
+    
+
+    func checkwin2(){
+        if (hpp==0){
+            performSegue(withIdentifier: "zwin", sender: self)
+        }
+        if (hpz==0){
+            performSegue(withIdentifier: "pwin", sender: self)
+        }
+    }
+    
+    @IBOutlet var endz: UIView!
+    @IBOutlet var endp: UIView!
+    func checkwin3(){
+        if (hpp==0){
+            endp.isHidden=true
+        }
+        if (hpz==0){
+            endz.isHidden=true
+        }
+    }
     /*
     // MARK: - Navigation
 
