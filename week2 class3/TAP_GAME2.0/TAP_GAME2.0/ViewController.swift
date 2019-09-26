@@ -69,6 +69,8 @@ class ViewController: UIViewController {
         }
     }
     
+
+    
     @IBOutlet var endz: UIView!
     @IBOutlet var endp: UIView!
     func checkwin3(){

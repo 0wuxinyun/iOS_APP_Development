@@ -44,7 +44,7 @@
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.93509203767123283" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <state key="normal" title="TAP">
-                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -142,8 +142,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="act1:" destination="g0j-nV-S4c" eventType="touchUpInside" id="u0g-eF-9xK"/>
-                                    <action selector="againp:" destination="g0j-nV-S4c" eventType="touchUpInside" id="XgF-8J-XLE"/>
+                                    <action selector="pagain:" destination="g0j-nV-S4c" eventType="touchUpInside" id="Sts-FX-GUB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -195,6 +194,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="againz:" destination="FbX-6m-boc" eventType="touchUpInside" id="Cei-1u-sVC"/>
+                                    <action selector="zagain:" destination="FbX-6m-boc" eventType="touchUpInside" id="MwW-xT-lAe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -268,6 +268,6 @@
         <image name="u=2170092546,1710312767&amp;fm=26&amp;gp=0" width="500" height="482"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ttd-7H-JVO"/>
+        <segue reference="cjU-lc-4IV"/>
     </inferredMetricsTieBreakers>
 </document>
